@@ -1,0 +1,159 @@
+html, body{
+    background:black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#login-register-bar{
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#login-box{
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+#login-form{
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+
+#login-form input[type="text"],#login-form input[type="password"]{
+    flex: 0 0 auto;
+    width: 100px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(50, 15, 15);
+    border: none;
+}
+
+#login-form input[type="submit"], #login-form input[type="button"]{
+    background: rgba(255,255,255,0.3);
+    color: white;
+    cursor: pointer;
+}
+
+#register{
+    flex: 0 0 auto;
+    height: 30px;
+    margin-right: 5px;
+    color: grey;
+    margin-bottom: -10px;
+}
+
+#register a{
+    color: red;
+}
+
+#header{
+    flex: 0 0 auto;
+    text-align: center;
+    background: rgb(220,0,0);
+    height: 110px;
+}
+
+#header a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#logo{
+    font-size: 100px;
+    position: relative;
+    bottom: 25px; 
+    left: 25px;
+    z-index: 0;
+    color: black;
+}
+
+#title{
+    position: relative;
+    right: 40px;
+    font-size: 50px;
+    bottom: 20px;
+    z-index: 1; 
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+#menu{
+    flex: 0 0 auto;
+    background: black;
+}
+
+#menu-inner{
+    display: flex;
+    flex-direction: row;
+    border-top: 5px dashed white;
+    border-bottom: 5px dashed white;
+    margin: 3px;
+}
+
+#menu a{
+    flex: 1 0 0px;
+    padding: 10px;
+    margin: 5px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+#menu a:hover{
+    background: rgba(255,255,255,0.2);
+    color: rgb(255,60,60);
+}
+
+#menu a:active{
+    background: rgba(255,255,255,0.15);
+    box-shadow: inset -2px -2px 2px rgba(255,255,255,0.2),
+    inset 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#container{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow-y: auto;
+}
+
+#container p{
+    margin: auto;
+
+}
+
+#footer{
+    flex: 0 0 auto;
+    border-top: 1px groove red;
+    margin: 10px 20px;
+    padding-top: 10px;
+    color: grey;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+
+
+
+

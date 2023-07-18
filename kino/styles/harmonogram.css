@@ -1,0 +1,25 @@
+#schedule-table{
+    border-collapse: collapse;
+    width: 75%;
+    flex: 0 1 auto;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#schedule-table tr td, #schedule-table tr th{
+    border: 1px solid white;
+    width: 12.5%;
+}
+
+#schedule-table a
+{
+    color: red;
+}
+
+#week-buttons button{
+    background: rgba(255,255,255,0.3);
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+}

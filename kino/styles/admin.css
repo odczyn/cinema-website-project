@@ -1,0 +1,57 @@
+#form-row
+{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.admin-form{
+    text-align: center;
+    margin: 0 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+
+.admin-form h1{
+    text-shadow: -2px -2px 1px red;    
+}
+
+.admin-form label{
+    margin: 5px 0;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.admin-input{
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: rgb(50, 15, 15);
+    border: none;
+}
+
+.admin-form span{
+    font-size: 18px;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.admin-form input[type="submit"]{
+    background: rgba(255,255,255,0.3);
+    color: white;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#container p
+{
+    padding: 0 !important;
+}
